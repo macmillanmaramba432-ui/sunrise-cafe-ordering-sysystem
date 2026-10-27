@@ -1,0 +1,30 @@
+
+[
+    {
+        "order_id": "ORD-20261024-001",
+        "created_at": "2026-10-24 11:30:00",
+        "customer": {
+            "name": "John Doe",
+            "email": "john@example.com",
+            "phone": "0712345678"
+        },
+        "order_type": "pickup",
+        "delivery_address": "",
+        "payment_method": "cash",
+        "payment_status": "Pending",
+        "order_status": "Pending",
+        "items": [
+            {
+                "product_id": 1,
+                "name": "Sunrise Cappuccino",
+                "price": 280,
+                "quantity": 2,
+                "subtotal": 560
+            }
+        ],
+        "subtotal": 560,
+        "delivery_fee": 0,
+        "total": 560,
+        "notes": ""
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Sunrise Cappuccino",
+        "description": "Freshly brewed espresso with creamy steamed milk.",
+        "price": 280,
+        "category": "Coffee",
+        "image": "",
+        "available": true
+    },
+    {
+        "id": 2,
+        "name": "Fresh Croissant",
+        "description": "A freshly baked, buttery croissant.",
+        "price": 180,
+        "category": "Bakery",
+        "image": "",
+        "available": true
+    },
+    {
+        "id": 3,
+        "name": "Caramel Latte",
+        "description": "Smooth espresso with milk and caramel.",
+        "price": 320,
+        "category": "Coffee",
+        "image": "",
+        "available": true
+    },
+    {
+        "id": 4,
+        "name": "Blueberry Muffin",
+        "description": "A soft muffin filled with blueberries.",
+        "price": 200,
+        "category": "Bakery",
+        "image": "",
+        "available": true
+    },
+    {
+        "id": 5,
+        "name": "Iced Vanilla Coffee",
+        "description": "Chilled coffee with vanilla and milk.",
+        "price": 300,
+        "category": "Coffee",
+        "image": "",
+        "available": true
+    },
+    {
+        "id": 6,
+        "name": "Fresh Orange Juice",
+        "description": "Refreshing orange juice.",
+        "price": 180,
+        "category": "Juice",
+        "image": "",
+        "available": true
+    }
+]

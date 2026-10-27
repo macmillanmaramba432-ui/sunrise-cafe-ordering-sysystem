@@ -1,0 +1,244 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #432719;
+    background: #fffaf4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-header {
+    min-height: 85px;
+    padding: 15px 6%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #432719;
+}
+
+.brand-icon {
+    font-size: 42px;
+}
+
+.brand strong {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 28px;
+}
+
+.brand small {
+    display: block;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+.main-nav {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-nav a {
+    padding: 12px 16px;
+    border-radius: 7px;
+    color: #432719;
+    font-weight: bold;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    background: #f58213;
+    color: white;
+}
+
+.hero {
+    min-height: 390px;
+    display: flex;
+    align-items: center;
+    padding: 55px 7%;
+    color: white;
+
+    background:
+        linear-gradient(90deg, rgba(35, 19, 10, .91), rgba(35, 19, 10, .24)),
+        url("../assets/images/cafe-homepage.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.eyebrow {
+    color: #f58213;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(38px, 5vw, 62px);
+    line-height: 1.1;
+    margin: 12px 0;
+}
+
+.hero h1 span {
+    color: #ffa51f;
+}
+
+.hero-description {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 500px;
+}
+
+.primary-button {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 15px 25px;
+    background: #f58213;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.primary-button:hover {
+    background: #d96c05;
+}
+
+.categories-section {
+    padding: 45px 6%;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-heading h2 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    margin: 8px 0;
+}
+
+.section-heading > p:last-child {
+    color: #6b625b;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.category-card {
+    background: white;
+    border: 1px solid #eee5db;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(60, 35, 15, 0.06);
+}
+
+.category-card img {
+    display: block;
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.category-content {
+    padding: 18px 15px 22px;
+}
+
+.category-content h3 {
+    margin: 0 0 10px;
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+
+.category-content p {
+    min-height: 42px;
+    color: #6b625b;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.outline-button {
+    display: inline-block;
+    padding: 10px 22px;
+    border: 1px solid #f58213;
+    color: #e96f00;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.outline-button:hover {
+    background: #f58213;
+    color: white;
+}
+
+.site-footer {
+    padding: 25px 6%;
+    text-align: center;
+    background: #432719;
+    color: white;
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    .category-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        justify-content: center;
+    }
+
+    .main-nav {
+        justify-content: center;
+    }
+
+    .hero {
+        min-height: 350px;
+        padding: 35px 6%;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.category-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}

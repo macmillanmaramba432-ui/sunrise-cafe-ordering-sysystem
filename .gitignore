@@ -1,0 +1,19 @@
+# Private database and payment credentials
+/config/database.php
+/config/mpesa.php
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Local and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Dependencies and editor files
+/vendor/
+/.idea/
+/.vscode/
